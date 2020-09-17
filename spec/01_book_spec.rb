@@ -9,7 +9,7 @@ describe 'Book' do
 
       genres.each do |genre|
         expect(Book::GENRES).to include(genre)
-      end
     end
   end
+end
 end
